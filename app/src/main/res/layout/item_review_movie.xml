@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_card"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/elevation_card"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_12dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_person"
+                android:layout_marginRight="@dimen/margin_8dp"/>
+            <TextView
+                android:id="@+id/name_reviewer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Hariyanto"
+                android:textSize="@dimen/text_20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_grey_70"
+            android:layout_marginTop="@dimen/margin_4dp"
+            android:layout_marginBottom="@dimen/margin_12dp"/>
+        <TextView
+            android:id="@+id/desc_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Spectacularly colourful with a sweet, (albeit predictable) path. Certainly not a misfire from Pixar, but also did not appeal to me personally in the way that many of their other films have.\r\n\r\n_Final rating:★★½ - Not quite for me, but I definitely get the appeal._"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

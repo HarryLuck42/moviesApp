@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/moviesFragment"
+            android:title="@string/popular"
+            android:icon="@drawable/popular"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/movieNowPlayingFragment"
+            android:title="@string/now_playing"
+            android:icon="@drawable/now_playing"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/movieUpcomingFragment"
+            android:title="@string/upcoming"
+            android:icon="@drawable/upcoming"
+            app:showAsAction="ifRoom"
+            />
+    </group>
+</menu>

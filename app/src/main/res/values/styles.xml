@@ -1,0 +1,77 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/fresca</item>
+        <item name="fontFamily">@font/fresca</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Normal">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Normal.White" parent="Normal">
+        <item name="android:textColor">@color/color_default_white</item>
+    </style>
+    <style name="Normal.White.10sp" parent="Normal.White">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="Normal.White.14sp" parent="Normal.White">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Normal.Grey70" parent="Normal">
+        <item name="android:textColor">@color/color_grey_70</item>
+    </style>
+    <style name="Normal.Grey70.12sp" parent="Normal.Grey70">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Normal.Grey70.13sp" parent="Normal.Grey70">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Normal.Grey70.14sp" parent="Normal.Grey70">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Normal.Grey70.16sp" parent="Normal.Grey70">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Normal.Grey70.18sp" parent="Normal.Grey70">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Normal.Grey70.20sp" parent="Normal.Grey70">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Bold.Primary" parent="Bold">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+    <style name="Bold.Primary.12sp" parent="Bold.Primary">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Bold.Primary.13sp" parent="Bold.Primary">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Bold.Primary.14sp" parent="Bold.Primary">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Bold.Primary.16sp" parent="Bold.Primary">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Bold.Primary.18sp" parent="Bold.Primary">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Bold.Primary.20sp" parent="Bold.Primary">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
